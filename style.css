@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+.profissionais-carrossel,
+.convenios-carrossel {
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-size: 100%;
+    line-height: 2rem;
+}
+
+
+:root {
+    --purple: #9758A1;
+    --green1: #3CA2BF;
+    --green: #30617A;
+    --white: #FFFFFF;
+    --neutral: #8CA2C0;
+}
+
+.padding {
+    padding: 6rem 15rem;
+}
+
+.colorwhite {
+    color: var(--white);
+}
+
+.colorgreen {
+    color: var(--green);
+}
+
+.colorgreen1 {
+    color: var(--green1);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    gap: 6rem;
+    border-bottom: 1px solid #DEE5ED;
+    line-height: 0;
+}
+
+.cabecalho-imagem {
+    height: 1.8rem;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.cabecalho-imagem:hover {
+    opacity: 80%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.cabecalho-menu-item {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--green);
+    transition-duration: 0.2s;
+}
+
+.cabecalho-menu-item:hover {
+    color: var(--green1);
+}
+
+.home {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.home-title {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    font-size: 4.8rem;
+    color: var(--green);
+    line-height: 4.8rem;
+    text-transform: uppercase;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.home-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1.8rem;
+}
+
+.button {
+    font-family: "futura-pt", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.75rem;
+    width: fit-content;
+    transition-duration: 0.2s;
+}
+
+.purple {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.purple:hover {
+    background-color: #edc5f3;
+    color: var(--green);
+}
+
+.green {
+    background-color: transparent;
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.green:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.video {
+    width: fit-content;
+    cursor: pointer;
+}
+
+.home-img {
+    height: 35rem;
+}
+
+.profissionais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.title {
+    font-family: "futura-pt", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 750;
+}
+
+.arrow-icon {
+    font-size: 2rem;
+    display: flex;
+    gap: 86.5rem;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.profissionais-carrossel {
+    display: grid;
+    grid-template-columns: repeat(8, 40rem);
+    gap: 4rem;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.profissionais-container {
+    display: flex;
+    gap: 1rem;
+    max-width: fit-content;
+}
+
+.profissionais-item-texts {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+
+.profissionais-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 15rem;
+}
+
+.profissionais-nome {
+    font-family: "futura-pt", sans-serif;
+    font-size: 2.4rem;
+    color: var(--green1);
+    font-weight: 700;
+}
+
+.profissionais-cargo {
+    font-size: 1.2rem;
+    color: var(--green);
+}
+
+.profissionais-descricao {
+    font-size: 1rem;
+    color: var(--green);
+}
+
+.espaco {
+    background-color: var(--purple);
+    display: flex;
+    flex: row wrap;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.espaco-img {
+    background: url(/assets/img/profissionais/Vinicius.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    height: 20rem;
+    width: 100rem;
+}
+
+/* .convenios {
+} */
+
+.convenios-text {
+    font-size: 1.6rem;
+    color: var(--green);
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+.convenios-carrossel {
+    display: grid;
+    grid-template-columns: repeat(10, 20rem);
+    gap: 4rem;
+    overflow-x: scroll;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.convenios-img {
+    width: 240px;
+}
+
+.cta {
+    display: flex;
+    flex-flow: column;
+    gap: 3rem;
+}
+
+.cta-infos-container {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+
+}
+
+.cta-icon {
+    font-size: 1rem;
+    color: var(--green1);
+}
+
+.cta-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row;
+    gap: 5rem;
+}
+
+.footer-title {
+    font-family: "futura-pt", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.contato-footer {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+
+.contato-icon {
+    font-size: 1.5rem;
+}
+
+.contato-text {
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.5rem;
+}
+
+.icon-medias {
+    font-size: 3rem;
+    color: var(--green);
+    margin-right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        line-height: 1.5rem;
+    }
+
+    .cabecalho {
+        gap: 2rem;
+    }
+
+    .cabecalho-imagem {
+        height: 1.2rem;
+    }
+
+    .cabecalho-menu-item {
+        font-size: 0.8rem;
+    }
+
+    .padding {
+        padding: 2rem 3rem;
+    }
+
+    .home {
+        display: flex;
+        flex-flow: column;
+        gap: 1rem;
+    }
+
+    .home-content {
+        gap: 1.5rem;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .home-title {
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 0.8rem;
+        text-align: center
+    }
+
+    .home-buttons {
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .button {
+        font-size: 0.9rem;
+        padding: 0.40rem 0.725rem;
+        border-radius: 0.4rem;
+    }
+
+    .home-img {
+        width: 0rem;
+        visibility: hidden;
+        height: 0rem;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .profissionais {
+        gap: 0.5rem;
+    }
+
+    .profissionais-carrossel {
+        grid-template-columns: repeat(8, 30rem)
+    }
+
+    .profissionais-container {
+        gap: 2rem;
+    }
+
+    .profissionais-img {
+        min-width: 8rem;
+        max-height: 21.7rem;
+    }
+
+    .profissionais-item-texts {
+        gap: 0.5rem;
+    }
+
+    .profissionais-nome {
+        font-size: 1.8rem;
+    }
+
+    .profissionais-descricao {
+        font-size: 0.8rem;
+    }
+
+    .arrow-icon {
+        gap: 5rem;
+    }
+
+    .espaco {
+        gap: 0rem;
+    }
+
+    .espaco-img {
+        visibility: hidden;
+        width: 0rem;
+        height: 0;
+    }
+
+    .convenios-text {
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .convenios-carrossel {
+        gap: 0.2rem;
+        grid-template-columns: repeat(10, 14rem)
+    }
+
+    .convenios-img {
+        width: 180px;
+    }
+
+    .footer {
+        gap: 2rem;
+        flex-flow: column;
+    }
+
+    .cta {
+        gap: 1.5rem;
+    }
+
+    .cta-infos-container {
+        gap: 0.6rem;
+    }
+
+    .footer-title {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .contato-icon {
+        font-size: 1rem;
+    }
+
+    .contato-text {
+        font-size: 1rem;
+    }
+
+    .icon-medias {
+        font-size: 2rem;
+        margin-right: 0.5rem
+    }
+}

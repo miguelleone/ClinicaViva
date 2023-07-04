@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-size: 100%;
+    line-height: 2rem;
+}
+
+
+:root {
+    --purple: #9758A1;
+    --green1: #3CA2BF;
+    --green: #30617A;
+    --white: #FFFFFF;
+    --neutral: #8CA2C0;
+}
+
+.padding {
+    padding: 6rem 15rem;
+}
+
+.colorwhite {
+    color: var(--white);
+}
+
+.colorgreen {
+    color: var(--green);
+}
+
+.colorgreen1 {
+    color: var(--green1);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    gap: 6rem;
+    border-bottom: 1px solid #DEE5ED;
+    line-height: 0;
+}
+
+.cabecalho-imagem {
+    height: 1.8rem;
+}
+
+.cabecalho-imagem:hover {
+    opacity: 80%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.cabecalho-menu-item {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--green);
+}
+
+.cabecalho-menu-item:hover {
+    color: var(--green1);
+}
+
+.home-title {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    font-size: 4.8rem;
+    color: var(--green);
+    line-height: 4.8rem;
+    text-transform: uppercase;
+}
+
+
+.sobre {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+
+}
+
+.sobre-title {
+    font-family: "futura-pt", sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    color: var(--green);
+    line-height: 4.8rem;
+}
+
+.sobre-sub-title {
+    font-size: 2rem;
+    color: var(--green);
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.button {
+    font-family: "futura-pt", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.75rem;
+    width: fit-content;
+}
+
+.purple {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.purple:hover {
+    background-color: #edc5f3;
+    color: var(--green);
+}
+
+.cta {
+    display: flex;
+    flex-flow: column;
+    gap: 3rem;
+}
+
+.cta-infos-container {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+
+}
+
+.cta-icon {
+    font-size: 1rem;
+    color: var(--green1);
+}
+
+.cta-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row;
+    gap: 5rem;
+}
+
+.footer-title {
+    font-family: "futura-pt", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.contato-footer {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+
+.contato-icon {
+    font-size: 1.5rem;
+}
+
+.contato-text {
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.5rem;
+}
+
+.icon-medias {
+    font-size: 3rem;
+    color: var(--green);
+    margin-right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+
+    
+body {
+    line-height: 1.5rem;
+}
+
+.cabecalho{
+    gap: 2rem;
+}
+
+.cabecalho-imagem{
+    height: 1.2rem;
+}
+
+.cabecalho-menu-item{
+    font-size: 0.8rem;
+}
+
+.padding {
+        padding: 2rem 3rem;
+    }
+
+.home-title{
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.text{
+    font-size: 0.8rem;
+    text-align:center
+}
+
+.button{
+    font-size: 0.9rem;
+    padding: 0.40rem 0.725rem;
+    border-radius: 0.4rem;
+}
+
+.sobre{
+    gap: 1rem;
+}
+
+.sobre-title{
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.sobre-sub-title{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
+
+.home-img{
+    width: 0rem;
+    visibility: hidden;
+    height: 0rem;
+}
+
+.video{
+    width: 100%;
+}
+
+.title{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.footer{
+    gap: 2rem;
+    flex-flow:column;
+}
+
+.cta{
+    gap: 1.5rem;
+}
+
+.cta-infos-container{
+    gap: 0.6rem;
+}
+
+.footer-title{
+    font-size: 1.2rem;
+    margin-bottom:1rem;
+}
+
+.contato-icon{
+    font-size: 1rem;
+}
+
+.contato-text{
+    font-size: 1rem;
+}
+
+.icon-medias{
+    font-size: 2rem;
+    margin-right:0.5rem
+}
+}
