@@ -90,10 +90,10 @@ video.addEventListener('click',function(){
 const buttonRight = document.getElementById('profissionais-right');
 const buttonLeft = document.getElementById('profissionais-left');
 
-buttonRight.onmouseover = function () {
+buttonRight.onclick = function () {
   document.getElementById('carrossel').scrollLeft += 704;
 };
-buttonLeft.onmouseover = function () {
+buttonLeft.onclick = function () {
   document.getElementById('carrossel').scrollLeft -= 704;
 };
 
@@ -102,26 +102,11 @@ buttonLeft.onmouseover = function () {
 const conveniosRight = document.getElementById('convenios-left');
 const conveniosLeft = document.getElementById('convenios-right');
 
-conveniosLeft.onmouseover = function () {
+conveniosLeft.onclick = function () {
   document.getElementById('convenios-carrossel').scrollLeft += 480;
 };
-conveniosRight.onmouseover = function () {
+conveniosRight.onclick = function () {
   document.getElementById('convenios-carrossel').scrollLeft -= 480;
 };
 
-
-function copy() {
-    // Get the text field
-    var copyText = document.getElementById("email");
-  
-    // Select the text field
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); // For mobile devices
-  
-     // Copy the text inside the text field
-    navigator.clipboard.writeText(copyText.value);
-  
-    // Alert the copied text
-    alert("Copied the text: " + copyText.value);
-}
 
