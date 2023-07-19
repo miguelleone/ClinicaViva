@@ -30,6 +30,30 @@ body {
     --neutral: #8CA2C0;
 }
 
+.tag{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 4px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.brava{
+    height: 2rem;
+    width: 2rem;
+    background: url(assets/img/Logo_Brava_Neg_Alpha.png) no-repeat;
+    background-size:contain;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.brava:hover{
+    background: url(assets/img/Logo_Brava_Pos_Alpha.png) no-repeat;
+    background-size: contain;
+}
+
 .padding {
     padding: 6rem 15rem;
 }
