@@ -46,7 +46,6 @@ body {
     background-size:contain;
     display: inline-block;
     cursor: pointer;
-    transition-duration: 0.3s;  
 }
 
 .brava:hover{
@@ -218,6 +217,11 @@ body {
     font-size: 3rem;
     color: var(--green);
     margin-right: 1.5rem;
+    transition-duration: 0.3s;
+}
+
+.icon-medias:hover {
+    color: var(--green1);
 }
 
 @media (max-width: 768px) {
