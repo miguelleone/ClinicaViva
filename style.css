@@ -213,7 +213,7 @@ body {
 
 .profissionais-carrossel {
     display: grid;
-    grid-template-columns: repeat(8, 40rem);
+    grid-template-columns: repeat(9, 40rem);
     gap: 4rem;
     overflow-x: scroll;
     scroll-behavior: smooth;
@@ -283,7 +283,7 @@ body {
 
 .convenios-carrossel {
     display: grid;
-    grid-template-columns: repeat(10, 20rem);
+    grid-template-columns: repeat(12, 20rem);
     gap: 4rem;
     overflow-x: scroll;
     align-items: center;

@@ -1,6 +1,12 @@
 // carrossel dos profissionais
 let arrayProfissionais = [ 
     {
+        "nome": "Bruna",
+        "cargo": "Médica",
+        "desc": "Médica generalista, atendimentos de crianças, saúde da mulher, Prep, e atendimentos voltados para saúde mental.",
+        "img": "/assets/img/profissionais/Bruna.jpg"
+    },
+    {
         "nome": "Carmen",
         "cargo": "Psicólogue",
         "desc": "Psicodramaticista, oferece atendimento em libras, atende público adolescente, adultos, idosos, conjugais, familiares e em grupo. Experiência em demandas relacionadas à orientação sexual e identidade de gênero.",
@@ -31,23 +37,23 @@ let arrayProfissionais = [
         "img": "/assets/img/profissionais/Lorena.jpg"
     },
     {
-        "nome": "Lethicia",
-        "cargo": "Nutricionista",
-        "desc": "Nutricionista clínica com foco em emagrecimento e hipertrofia, sendo especialista em nutrição esportiva. Acredita em um processo descomplicado, sem dietas restritivas.",
-        "img": "/assets/img/profissionais/Lethicia.jpg"
+        "nome": "Paulo",
+        "cargo": "Psicólogo",
+        "desc": "Psicólogo, psicanalista, atendimento de adolescentes, adultos e idosos. Enfoque nas demandas sobre sexualidade, identidade e gênero. Experiência em demandas diversas sob o olhar da psicanálise.",
+        "img": "/assets/img/profissionais/Paulo.jpg"
     },
     {
-        "nome": "Bárbara",
-        "cargo": "Estagiária",
-        "desc": "Estudante de Psicologia no CEUB, aprimorando seus conhecimentos teóricos junto à prática profissional.",
-        "img": "/assets/img/profissionais/Bárbara.png"
+        "nome": "Ana Julia",
+        "cargo": "Psicóloga",
+        "desc": "Psicóloga, Gestalt-terapeuta, atende crianças, adolescentes, adultos e pessoas LGBTIA+. Experiência com demandas de ansiedade, depressão, relações interpessoais, autoconhecimento, entre outras.",
+        "img": "/assets/img/profissionais/AnaJulia.jpg"
     },
     {
-        "nome": "Tábata",
-        "cargo": "Médica",
-        "desc": "Atendimento com escuta qualificada e direcionada para o cuidado. Atendimento infantil, saúde da mulher, ocupacional e saúde mental.",
-        "img": "/assets/img/profissionais/Tabata.jpeg"
-    },
+        "nome": "Najila",
+        "cargo": "Psicóloga",
+        "desc": "Psicóloga, especialista em Neuropsicologia, trabalha com avaliação para concursos, cirurgias e demais investigações.",
+        "img": "/assets/img/profissionais/Najila.jpg"
+    }
 ]
 
 let carProfissionais = Array.from(document.getElementsByClassName("profissionais-container"));

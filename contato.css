@@ -192,18 +192,18 @@ body {
 }
 
 .consulta {
-    background-image: url(/assets/img/pexels-christina-morillo-1181498.png);
+    background-image: url(/assets/img/pexels-christina-morillo-1181498.jpg);
     background-size: cover;
 }
 
 .redes {
-    background-image: url(/assets/img/brasilcoms_0014.png);
+    background-image: url(/assets/img/brasilcoms_0014.jpg);
     background-size: cover;
     background-color: var(--green);
 }
 
 .parceiro {
-    background-image: url(/assets/img/brasilcoms_0051.png);
+    background-image: url(/assets/img/brasilcoms_0051.jpg);
     background-size: cover;
 }
 
