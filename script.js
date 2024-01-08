@@ -91,28 +91,28 @@ video.addEventListener('click',function(){
     }
 },false);
 
-// scroll carrossel profissionais
+// // scroll carrossel profissionais
 
-const buttonRight = document.getElementById('profissionais-right');
-const buttonLeft = document.getElementById('profissionais-left');
+// const buttonRight = document.getElementById('profissionais-right');
+// const buttonLeft = document.getElementById('profissionais-left');
 
-buttonRight.onclick = function () {
-  document.getElementById('carrossel').scrollLeft += 704;
-};
-buttonLeft.onclick = function () {
-  document.getElementById('carrossel').scrollLeft -= 704;
-};
+// buttonRight.onclick = function () {
+//   document.getElementById('carrossel').scrollLeft += 704;
+// };
+// buttonLeft.onclick = function () {
+//   document.getElementById('carrossel').scrollLeft -= 704;
+// };
 
-// scroll carrossel convenios
+// // scroll carrossel convenios
 
-const conveniosRight = document.getElementById('convenios-left');
-const conveniosLeft = document.getElementById('convenios-right');
+// const conveniosRight = document.getElementById('convenios-left');
+// const conveniosLeft = document.getElementById('convenios-right');
 
-conveniosLeft.onclick = function () {
-  document.getElementById('convenios-carrossel').scrollLeft += 480;
-};
-conveniosRight.onclick = function () {
-  document.getElementById('convenios-carrossel').scrollLeft -= 480;
-};
+// conveniosLeft.onclick = function () {
+//   document.getElementById('convenios-carrossel').scrollLeft += 480;
+// };
+// conveniosRight.onclick = function () {
+//   document.getElementById('convenios-carrossel').scrollLeft -= 480;
+// };
 
 

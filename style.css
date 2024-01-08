@@ -37,7 +37,7 @@ body {
 }
 
 .padding {
-    padding: 6rem 15rem;
+    padding: 6rem 10rem;
 }
 
 .tag{
@@ -285,7 +285,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;
-    overflow-x: scroll;
     align-items: center;
     justify-content: center;
 }
