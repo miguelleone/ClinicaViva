@@ -282,16 +282,16 @@ body {
 }
 
 .convenios-carrossel {
-    display: grid;
-    grid-template-columns: repeat(12, 20rem);
+    display: flex;
+    flex-wrap: wrap;
     gap: 4rem;
     overflow-x: scroll;
     align-items: center;
-    scroll-behavior: smooth;
+    justify-content: center;
 }
 
 .convenios-img {
-    width: 240px;
+    width: 180px;
 }
 
 .cta {
@@ -484,12 +484,11 @@ body {
 
     .convenios-carrossel {
         margin-top: 2rem;
-        gap: 0.2rem;
-        grid-template-columns: repeat(10, 14rem)
+        gap: 3rem;
     }
 
     .convenios-img {
-        width: 180px;
+        width: 100px;
     }
 
     .footer {
