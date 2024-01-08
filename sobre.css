@@ -47,7 +47,7 @@ body {
     display: inline-block;
     cursor: pointer;
 }
-
+ 
 .brava:hover{
     background: url(assets/img/Logo_Brava_Pos_Alpha.png) no-repeat;
     background-size: contain;

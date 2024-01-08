@@ -356,7 +356,7 @@ body {
 
 .icon-medias:hover {
     color: var(--green1);
-}
+} 
 
 @media (max-width: 768px) {
 

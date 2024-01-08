@@ -17,7 +17,7 @@ let arrayProfissionais = [
         "cargo": "Psicólogue",
         "desc": "Psicanalista dissidente, atendimento de pessoas LGBTIA+, jovens e adultos, depressão, ansiedade, discriminação, autolesão e sintomas diversos a partir da Psicanálise.",
         "img": "/assets/img/profissionais/Clara.jpg"
-    },
+    }, 
     {
         "nome": "Augusto",
         "cargo": "Psicólogo",
