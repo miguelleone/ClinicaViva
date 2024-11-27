@@ -1,0 +1,90 @@
+[ 
+    {
+        "id": 1,
+        "nome": "Marco Antônio",
+        "cargo": "Médico",
+        "desc": "Médico de Família e Comunidade, ampla experiência em demandas de saúde do dia a dia, práticas integrativas de saúde, atendimentos em saúde mental, inserção de DIU, saúde da mulher e população LGBTIA+.",
+        "img": "/assets/img/profissionais/MarcoMedico.jpg",
+        "cor": "purple"
+    },
+    {
+        "id": 2,
+        "nome": "Carlos Lima",
+        "cargo": "Médico",
+        "desc": "Emergencista, responsável técnico pela Clínica Viva, atendimentos voltados para a população LGBTIA+.",
+        "img": "/assets/img/profissionais/CarlosMedico.jpg",
+        "cor": "green1"
+    },
+    {
+        "id": 3,
+        "nome": "Lethicya Carvalho",
+        "cargo": "Médica",
+        "desc": "Médica comprometida e cuidadosa com seus pacientes, promovendo uma medicina guiada pelos preceitos éticos e morais. Contribui de forma ativa, para sempre que possível, promover o bem-estar daqueles que precisam. Atendimentos infantis, adolescentes e adultos, atendimento para saúde da mulher e saúde mental. Possui um atendimento acolhedor e humanizado para população LGBTIA+.",
+        "img": "/assets/img/profissionais/DraLethycia.jpg",
+        "cor": "green"
+    },
+    {
+        "id": 4,
+        "nome": "Augusto",
+        "cargo": "Psicólogo",
+        "desc": "Psicólogo, homem trans, atendimento de crianças, adolescentes, adultos e casais, com temáticas sobre luto, transtornos dissociativos de personalidade, sexualidade, sofrimento no trabalho, minorias e população LGBTIA+ com foco em transidentidades.",
+        "img": "/assets/img/profissionais/Augusto.jpeg",
+        "cor": "purple"
+    },
+    {
+        "id": 5,
+        "nome": "Rodrigo Moreira",
+        "cargo": "Psicólogo",
+        "desc": "Atendimentos de adolescentes, jovens e adultos, trabalha com a abordagem TCC, possui formação em psicopatologia e intervenções em saúde mental, além de vivência pessoal e estudos com a População LGBTIA+.",
+        "img": "/assets/img/profissionais/RodrigoPsicologo.jpg",
+        "cor": "green1"
+    },
+    {
+        "id": 6,
+        "nome": "Juliana Monteiro",
+        "cargo": "Psicóloga",
+        "desc": "Oferece atendimentos especializados a mulheres, sejam para cuidados pessoais, relacionamentos, vítimas de violência e também para população LGBTIA+. Atendimentos individuais e para casais pela abordagem Sistêmica.",
+        "img": "/assets/img/profissionais/JulianaPsicologa.jpg",
+        "cor": "green"
+    },
+    {
+        "id": 7,
+        "nome": "Lorena",
+        "cargo": "Nutricionista",
+        "desc": "Trabalha com crianças e adultos com foco em vegetarianismo e educação alimentar. Especialista em nutrição clínica e acredita que o atendimento nutricional deve ser acolhedor e inclusivo para todes, todas e todos.",
+        "img": "/assets/img/profissionais/Lorena.jpg",
+        "cor": "purple"
+    },
+    {
+        "id": 8,
+        "nome": "Paulo",
+        "cargo": "Psicólogo",
+        "desc": "Psicólogo, psicanalista, atendimento de adolescentes, adultos e idosos. Enfoque nas demandas sobre sexualidade, identidade e gênero. Experiência em demandas diversas sob o olhar da psicanálise.",
+        "img": "/assets/img/profissionais/Paulo.jpg",
+        "cor": "green1"
+    },
+    {
+        "id": 9,
+        "nome": "Yago Bonfim",
+        "cargo": "Fonoaudiólogo",
+        "desc": "Fonaudiólogo e Mestrando em Ciências médicas. Atende nas modalidades Online e presencial (Crianças, artistas, jornalistas, professores e pessoas trans) nas demandas de Voz, Perfomance comunicativa, Fluência de fala e TPAC.",
+        "img": " ",
+        "cor": "green"
+    },
+    {
+        "id": 10,
+        "nome": "Ana Julia",
+        "cargo": "Psicóloga",
+        "desc": "Psicóloga, Gestalt-terapeuta, atende crianças, adolescentes, adultos e pessoas LGBTIA+. Experiência com demandas de ansiedade, depressão, relações interpessoais, autoconhecimento, entre outras.",
+        "img": "/assets/img/profissionais/AnaJulia.jpg",
+        "cor": "purple"
+    },
+    {
+        "id": 11,
+        "nome": "Najila",
+        "cargo": "Psicóloga",
+        "desc": "Psicóloga, especialista em Neuropsicologia, trabalha com avaliação para concursos, cirurgias e demais investigações.",
+        "img": "/assets/img/profissionais/Najila.jpg",
+        "cor": "green1"
+    }
+]

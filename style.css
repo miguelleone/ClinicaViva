@@ -29,6 +29,7 @@ body {
 
 
 :root {
+    --fontFutura: "futura-pt", sans-serif;
     --purple: #9758A1;
     --green1: #3CA2BF;
     --green: #30617A;
@@ -62,7 +63,6 @@ body {
     background: url(assets/img/Logo_Brava_Pos_Alpha.png) no-repeat;
     background-size: contain;
 }
-
 
 .colorwhite {
     color: var(--white);
@@ -188,15 +188,15 @@ body {
     height: 35rem;
 }
 
-.profissionais {
+/* .profissionais {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-}
+} */
 
 .title {
-    font-family: "futura-pt", sans-serif;
+    font-family: var(--fontFutura);
     font-size: 3rem;
     margin-bottom: 2rem;
     font-weight: 750;
@@ -212,46 +212,88 @@ body {
 
 .profissionais-carrossel {
     display: grid;
-    grid-template-columns: repeat(9, 40rem);
-    gap: 4rem;
+    grid-template-columns: repeat(11, 300px);
+    gap: .8rem;
     overflow-x: scroll;
     scroll-behavior: smooth;
 }
 
-.profissionais-container {
-    display: flex;
-    gap: 1rem;
-    max-width: fit-content;
+.profissionais {
+    position: relative;
+    overflow: hidden; /* Esconde conteúdo que não está visível no carrossel */
 }
 
-.profissionais-item-texts {
+.profissionais-carrossel {
     display: flex;
-    flex-flow: column;
+    transition: transform 0.5s ease-in-out; /* Animação suave ao mover o carrossel */
     gap: 1rem;
 }
 
-.profissionais-img {
+.gapProfissional {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.imgProfissional {
+    width: 300px;
+    height: 420px;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-    min-width: 15rem;
+    background-position: center;
+    border-radius: 10px;
 }
 
-.profissionais-nome {
-    font-family: "futura-pt", sans-serif;
-    font-size: 2.4rem;
-    color: var(--green1);
-    font-weight: 700;
+.infoProfissional {
+    padding: 1rem;
+    width: 300px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    line-height: 1;
+    border-radius: 10px;
+    color: white;
 }
 
-.profissionais-cargo {
-    font-size: 1.2rem;
-    color: var(--green);
+.infoProfissional h2, .infoProfissional h4, .infoProfissional p {
+    font-family: var(--fontFutura);
 }
 
-.profissionais-descricao {
-    font-size: 1rem;
-    color: var(--green);
+.infoProfissional h2 {
+    font-size: 20px;
+}
+
+.infoProfissional h4 {
+    font-size: 18x;
+}
+
+.infoProfissional p {
+    line-height: 1.2 !important;
+    font-size: 16px;
+    max-height: 140px;
+    overflow-y: auto;
+}
+
+/* Botões de navegação */
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.nav-left {
+    left: 0;
+}
+
+.nav-right {
+    right: 0;
 }
 
 .espaco {
