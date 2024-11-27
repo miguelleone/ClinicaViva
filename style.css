@@ -273,6 +273,7 @@ body {
     font-size: 16px;
     max-height: 140px;
     overflow-y: auto;
+    scrollbar-width: thin;
 }
 
 /* Botões de navegação */
